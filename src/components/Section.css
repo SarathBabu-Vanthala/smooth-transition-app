@@ -1,0 +1,21 @@
+.section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 1s ease-in-out;
+    scroll-snap-align: start;
+    font-size: 2rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  .white-section {
+    background-color: white;
+    color: black;
+  }
+  
+  .black-section {
+    background-color: black;
+    color: white;
+  }
+  
